@@ -7,6 +7,8 @@ namespace Futbol.Data
     {
         public FutbolDbContext(DbContextOptions<FutbolDbContext> options) : base(options)
         {
+            Database.Migrate();
+            
             
         }
 
