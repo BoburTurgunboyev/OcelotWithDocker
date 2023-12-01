@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Futbol.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class FutbolistController : ControllerBase
     {
