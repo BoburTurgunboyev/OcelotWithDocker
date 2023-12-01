@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceTwo", "ServiceTwo", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Futbol", "Futbol\Futbol.csproj", "{166A041E-A7E1-434B-BB7C-163CE09B3FF0}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{30DBBBD9-5EFA-4A75-9839-1DCF4AF4C580}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{166A041E-A7E1-434B-BB7C-163CE09B3FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{166A041E-A7E1-434B-BB7C-163CE09B3FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{166A041E-A7E1-434B-BB7C-163CE09B3FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DBBBD9-5EFA-4A75-9839-1DCF4AF4C580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DBBBD9-5EFA-4A75-9839-1DCF4AF4C580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DBBBD9-5EFA-4A75-9839-1DCF4AF4C580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DBBBD9-5EFA-4A75-9839-1DCF4AF4C580}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
