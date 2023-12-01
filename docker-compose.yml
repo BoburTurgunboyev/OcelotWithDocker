@@ -14,3 +14,10 @@ services:
     build:
       context: .
       dockerfile: Futbol/Dockerfile
+
+  getawayfutbol:
+    image: ${DOCKER_REGISTRY-}getawayfutbol
+    build:
+      context: .
+      dockerfile: GetawayFutbol/Dockerfile
+
