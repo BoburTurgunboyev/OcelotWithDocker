@@ -1,0 +1,17 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/api/Futbol/GetAllFutbolist",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "futbol",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Futbol/GetAllFutbolist"
+
+    }
+
+}
